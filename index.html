@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator by Christian Oxeniola</title>
+    <link rel="stylesheet" href="./style.css" class="rel">
+</head>
+<body>
+    <div class="container">
+    <form class="calculator" name="calc">
+        <input type="text" id="inputext" class="value" placeholder="0">
+        <span class="num clear" onclick="clr()"><i>C</i></span>
+        <span class="num" onclick="calculate('/')"><i>/</i></span>
+        <span class="num" onclick="calculate('*')"><i>*</i></span>
+        <span class="num" onclick="calculate(7)"><i>7</i></span>
+        <span class="num" onclick="calculate(8)"><i>8</i></span>
+        <span class="num" onclick="calculate(9)"><i>9</i></span>
+        <span class="num" onclick="calculate('-')"><i>-</i></span>
+        <span class="num" onclick="calculate(4)"><i>4</i></span>
+        <span class="num" onclick="calculate(5)"><i>5</i></span>
+        <span class="num" onclick="calculate(6)"><i>6</i></span>
+        <span class="num plus" onclick="calculate('+')"><i>+</i></span>
+        <span class="num" onclick="calculate(1)"><i>1</i></span>
+        <span class="num" onclick="calculate(2)"><i>2</i></span>
+        <span class="num" onclick="calculate(3)"><i>3</i></span>
+        <span class="num" onclick="calculate(0)"><i>0</i></span>
+        <span class="num" onclick="calculate('%')"><i>%</i></span>
+        <span class="num" onclick="calculate('.')"><i>.</i></span>
+        <span class="num equal" onclick="Result()"><i>=</i></span>
+    </form>
+</div>
+    
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
